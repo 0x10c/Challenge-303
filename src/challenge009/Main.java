@@ -2,28 +2,30 @@ package challenge009;
 
 public class Main {
 	public static void main(String[] args) {
-		int macierz[][] = new int[10][10];
+		int matrix[][] = new int[10][10];
 		int sum, i = 0, j = 0;
 		
 		for(i = 0; i < 10; i++) {
 			for(j = 0; j < 10; j++) {
 				if(i == j) 
-					macierz[i][j] = 1;
+					matrix[i][j] = 1;
 				else
-					macierz[i][j] = 0;
+					matrix[i][j] = 0;
 			}
 		}
 		
 		for(i = 0; i < 10; i++) {
 			for(j = 0; j < 10; j++) {
-				System.out.println(macierz[i][j] + " ");
+				System.out.print(matrix[i][j] + " ");
 			}
+			System.out.println();
 		}
 		
 		sum = 0;
 		for(i = 0; i < 10; i++) {
-			sum = sum + macierz[i][i];
+			sum = sum + matrix[i][i];
 		}
-		System.out.println("Suma elementów: " + sum);
+		System.out.println();
+		System.out.println("Sum of elements: " + sum);
 	}
 }
