@@ -5,4 +5,4 @@
  * Java code to calculate area of rectangle
  */
 
-package challenge1;
+package challenge000;

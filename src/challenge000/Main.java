@@ -1,4 +1,4 @@
-package challenge1;
+package challenge000;
 
 import java.io.BufferedReader;
 import java.io.IOException;

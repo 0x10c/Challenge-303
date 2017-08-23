@@ -1,4 +1,4 @@
-package challenge009;
+package challenge010;
 
 public class Main {
 	public static void main(String[] args) {
@@ -7,7 +7,7 @@ public class Main {
 		
 		for(i = 0; i < 10; i++) {
 			for(j = 0; j < 10; j++) {
-				if(i == j) 
+				if(i == j)
 					matrix[i][j] = 1;
 				else
 					matrix[i][j] = 0;
