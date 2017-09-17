@@ -1,8 +1,6 @@
-/**
- * 
+/*
+ * This package is part of project 'Challenge-303'.
+ * Read more: https://github.com/theacid/Challenge-303/blob/master/README.md
  */
-/**
- * @author http://github.com/0x10c
- * 
- */
+
 package challenge008;
