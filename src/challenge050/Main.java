@@ -1,7 +1,7 @@
-package challenge030;
+package challenge050;
 
 public class Main {
     public static void main(String args[]) {
-        new Note().setVisible(true);
+        new NotepadUI().setVisible(true);
     }
 }
