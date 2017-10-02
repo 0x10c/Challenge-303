@@ -1,6 +1,6 @@
 package challenge007;
 
-public class Main {
+class MultiplicationTable {
     public static void main(String[] args) {
         int line, column;
 

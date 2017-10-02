@@ -1,6 +1,6 @@
 package challenge009;
 
-public class Main {
+class TwoDimArray {
     public static void main(String[] args) {
         int matrix[][] = new int[10][10];
         int sum, i = 0, j = 0;

@@ -2,7 +2,7 @@ package challenge006;
 
 import java.util.Random;
 
-public class Main {
+class RandomValues {
 	public static void main(String[] args) {
 		int generatedNumbers = 5, i;
 		double number, sum = 0, minValue, maxValue;

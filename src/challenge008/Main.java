@@ -1,6 +1,6 @@
 package challenge008;
 
-public class Main {
+class ReverseArray {
     public static void main(String[] args) {
         int i = 0;
         int dane[] = new int[10];

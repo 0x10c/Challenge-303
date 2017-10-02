@@ -1,6 +1,6 @@
 package challenge004;
 
-public class Main {
+class ThreeLoops {
     public static void main(String[] args) {
         int xFor, yFor;
         int xDoWhile = 0, yDoWhile = 0;

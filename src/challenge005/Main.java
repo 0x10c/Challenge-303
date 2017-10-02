@@ -1,6 +1,6 @@
 package challenge005;
 
-public class Main {
+class PrintNumbers {
     public static void main(String[] args) {
         int i, k = 0, j = 0, sum = 0;
 
