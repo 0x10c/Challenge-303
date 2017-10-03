@@ -24,11 +24,15 @@ Folder named '3' contains a package named Challenge3
   - 007 - Multiplication table in the range of 10,000 (100x100).
   - 008 - Create array with 10 elements. Put value 9 for array index 0. Value 8 for index 1, value 7 for index 2 etc.
   - 009 - Create two dimmension array - 10x10. For [0][0] the value is 1. For [1][1] the value is 1. For [2][2] the value is 1 etc.
-  - 010 - Two dimension array - print the diagonally numbers from 0 to 10. For [0][0] the value is 1. For [1][2] the value is 2 etc.
-  - 011 - [X]
+  - 010 - Two dimension array - print the diagonally (start from first array index 0) numbers from 0 to 10. For [0][0] the value is 1. For [1][2] the value is 2 etc.
+  - 011 - Two dimension array - print the diagonally (start from last array index) numbers from 0 to 10.
+  #### Example:
+  ````
+  [x][y] - For last [x] and first [y] value is 1. For penultimate [x] and second [y] value is 1. For all other elements is 0
+  ````
   - 012 - Multiplication table with two for loops.
   - 013 - Multiplication Table with do while loop.
-  - 014 - 
+  - 014 - Two dimension array - print two columns (starting from position [0][0]. Multiply the first value (from first column) by yourself and print her in second column
   - 015 - 
   - 016 - 
   - 017 - 
