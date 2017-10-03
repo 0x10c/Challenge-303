@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
         int i, j, n = 10;
         int matrix[][]= new int[n][n];
+        double toPow = 3;
 
         for(i = 0; i < n; i++) {
             for(j = 0; j < n; j++) {

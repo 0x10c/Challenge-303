@@ -61,7 +61,7 @@ class RectangleArea {
       private void printResult() {}
   }
   ```` 
-  - 027 - Two dimension array - print the diagonally (start from last array index) random values. Use 
+  - 027 - Two dimension array - print the diagonally (start from first array index) random values. Use 
 ``` java.util.random```
   - 028 - 
   - 029 - 
