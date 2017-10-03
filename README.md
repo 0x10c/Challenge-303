@@ -39,7 +39,7 @@ Folder named '3' contains a package named Challenge3
   - 022 -
   - 023 - 
   - 024 - 
-  - 025 - Calculate area of rectangle - User can enter a values from keyboard - Create three methods to etting values, calculate and print result.
+  - 025 - Calculate area of rectangle - User can enter a values from keyboard - Create three methods to: getting values, calculate and print result.
 #### Example
 ```` java
 class RectangleArea {
@@ -48,7 +48,15 @@ class RectangleArea {
     private void printResult() {}
 }
 ````
-  - 026 - 
+  - 026 - Quadratic Function calc - User can enter a values from keyboard - Create three methods to: getting values, calculate and print result.
+  #### Example
+  ```` java
+  class QuadraticFunction {
+      private void readValues() {}
+      private void calculateValues() {}
+      private void printResult() {}
+  }
+  ```` 
   - 027 - 
   - 028 - 
   - 029 - 
