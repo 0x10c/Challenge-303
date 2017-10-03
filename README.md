@@ -33,6 +33,28 @@ Folder named '3' contains a package named Challenge3
   - 016 - 
   - 017 - 
   - 018 - 
+  - 019 - 
+  - 020 - 
+  - 021 - 
+  - 022 -
+  - 023 - 
+  - 024 - 
+  - 025 - Calculate area of rectangle - User can enter a values from keyboard - Create three methods to etting values, calculate and print result.
+#### Example
+```` java
+class RectangleArea {
+    private void readValues() {}
+    private void calculateValues() {}
+    private void printResult() {}
+}
+````
+  - 026 - 
+  - 027 - 
+  - 028 - 
+  - 029 - 
+  - 030 -  
+   
+  
             
 
 
