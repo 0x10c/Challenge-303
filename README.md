@@ -37,7 +37,7 @@ Folder named '3' contains a package named Challenge3
   #### Example
   ```` For 30 sum is 3. For 75 sum is 12. For 129 sum is 12 (..)````
   - 016 - Converter decimal to binary. User can enter a values from keyboard.
-  - 017 - 
+  - 017 - Converter decimal to hexadecimal. User can enter a values from keyboard.
   - 018 - 
   - 019 - 
   - 020 - 
