@@ -32,11 +32,11 @@ Folder named '3' contains a package named Challenge3
   ````
   - 012 - Multiplication table with two for loops.
   - 013 - Multiplication Table with do while loop.
-  - 014 - Two dimension array - print two columns (starting from position [0][0]. Multiply the first value (from first column) by yourself and print her in second column
+  - 014 - Two dimension array - print two columns (starting from position [0][0]. Multiply the first value (from first column) by yourself and print her in second column.
   - 015 - Calculate the sum of the digits of the given number.
   #### Example
   ```` For 30 sum is 3. For 75 sum is 12. For 129 sum is 12 (..)````
-  - 016 - 
+  - 016 - Converter decimal to binary. User can enter a values from keyboard.
   - 017 - 
   - 018 - 
   - 019 - 
