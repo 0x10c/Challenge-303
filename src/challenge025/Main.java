@@ -1,18 +1,17 @@
 package challenge025;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
+import java.util.Scanner;
 
 class RectangleArea {
     private double height, width, area;
+    Scanner inputValues = new Scanner(System.in);
 
     private void readValues() throws IOException {
-        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Height: ");
-        height = Double.parseDouble(bufferedReader.readLine());
+        height = Double.parseDouble(inputValues.nextLine());
         System.out.println("Width: ");
-        width = Double.parseDouble(bufferedReader.readLine());
+        width = Double.parseDouble(inputValues.nextLine());
     }
 
     private void calculate() {
