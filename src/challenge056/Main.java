@@ -1,4 +1,4 @@
-package challenge026;
+package challenge056;
 
 import java.io.IOException;
 import java.util.Scanner;
