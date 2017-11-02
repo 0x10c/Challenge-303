@@ -1,5 +1,5 @@
 /*
- * This package is part of project 'Challenge-303'.
+ * Multiplication table with two for loops.
  * Read more: https://github.com/theacid/Challenge-303/blob/master/README.md
  */
 
