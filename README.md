@@ -41,7 +41,7 @@ Folder named '3' contains a package named Challenge3
   - 018 - Converter [decimal] to [octal]. User can enter a values from keyboard.
   - 019 - Converter [binary] to [octal]. User can enter a values from keyboard.
   - 020 - 
-  - 021 - 
+  - 021 - Compare two Integers.
   - 022 -
   - 023 - 
   - 024 - 
