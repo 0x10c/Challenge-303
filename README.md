@@ -31,15 +31,15 @@ Folder named '3' contains a package named Challenge3
   [x][y] - For last [x] and first [y] value is 1. For penultimate [x] and second [y] value is 1. For all other elements is 0
   ````
   - 012 - Multiplication table with two for loops.
-  - 013 - Multiplication Table with do while loop.
+  - 013 - Multiplication table with do while loop.
   - 014 - Two dimension array - print two columns (starting from position [0][0]. Multiply the first value (from first column) by yourself and print her in second column.
   - 015 - Calculate the sum of the digits of the given number.
   #### Example
   ```` For 30 sum is 3. For 75 sum is 12. For 129 sum is 12 (..)````
-  - 016 - Converter decimal to binary. User can enter a values from keyboard.
-  - 017 - Converter decimal to hexadecimal. User can enter a values from keyboard.
-  - 018 - Converter decimal to octal. User can enter a values from keyboard.
-  - 019 - Converter binary to octal. User can enter a values from keyboard.
+  - 016 - Converter [decimal] to [binary]. User can enter a values from keyboard.
+  - 017 - Converter [decimal] to [hexadecimal]. User can enter a values from keyboard.
+  - 018 - Converter [decimal] to [octal]. User can enter a values from keyboard.
+  - 019 - Converter [binary] to [octal]. User can enter a values from keyboard.
   - 020 - 
   - 021 - 
   - 022 -
@@ -69,7 +69,7 @@ class RectangleArea {
   - 029 - 
   - 030 -  
    
-  
-            
-
-
+[decimal]: <https://en.wikipedia.org/wiki/Decimal>
+[binary]: <https://en.wikipedia.org/wiki/Binary_number>
+[octal]: <https://en.wikipedia.org/wiki/Octal> 
+[hexadecimal]: <https://en.wikipedia.org/wiki/Hexadecimal>
