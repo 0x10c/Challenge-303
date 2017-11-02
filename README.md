@@ -45,29 +45,34 @@ Folder named '3' contains a package named Challenge3
   - 022 -
   - 023 - 
   - 024 - 
-  - 025 - Calculate area of rectangle - User can enter a values from keyboard - Create three methods to: getting values, calculate and print result.
-#### Example
-```` java
+  - 025 - 
+  - 026 - 
+  - 027 - 
+  - 028 - 
+  - 029 - 
+  - 030 -  
+  - (...)
+  - 055 - Calculate area of rectangle - User can enter a values from keyboard - Create three methods to: getting values, calculate and print result.
+  #### Example
+  ````java
 class RectangleArea {
     private void readValues() {}
     private void calculateValues() {}
     private void printResult() {}
 }
 ````
-  - 026 - Quadratic Function calc - User can enter a values from keyboard - Create three methods to: getting values, calculate and print result.
+  - 056 - Quadratic Function calc - User can enter a values from keyboard - Create three methods to: getting values, calculate and print result.
   #### Example
-  ```` java
+  ```` java 
   class QuadraticFunction {
       private void readValues() {}
       private void calculateValues() {}
       private void printResult() {}
   }
   ```` 
-  - 027 - Two dimension array - print the diagonally (start from last array index) random values. Use 
-``` java.util.random```
-  - 028 - 
-  - 029 - 
-  - 030 -  
+  - 057 - Two dimension array - print the diagonally (start from last array index) random values. Use 
+  ``` java.util.random```
+  -
    
 [decimal]: <https://en.wikipedia.org/wiki/Decimal>
 [binary]: <https://en.wikipedia.org/wiki/Binary_number>
