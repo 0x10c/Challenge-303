@@ -39,7 +39,7 @@ Folder named '3' contains a package named Challenge3
   - 016 - Converter decimal to binary. User can enter a values from keyboard.
   - 017 - Converter decimal to hexadecimal. User can enter a values from keyboard.
   - 018 - Converter decimal to octal. User can enter a values from keyboard.
-  - 019 - 
+  - 019 - Converter binary to octal. User can enter a values from keyboard.
   - 020 - 
   - 021 - 
   - 022 -
