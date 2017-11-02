@@ -1,18 +1,17 @@
 package challenge026;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
+import java.util.Scanner;
 
 class QuadraticFunction {
     private double a, b, c, x1, x2, delta;
     private char square_roots;
+    Scanner inputValues = new Scanner(System.in);
 
     private void readValues() throws IOException {
-        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
         System.out.println("Enter a: ");
-        a = Double.parseDouble(bufferedReader.readLine());
+        a = Double.parseDouble(inputValues.nextLine());
 
         if(a == 0) {
             System.out.println("a cannot be equals to 0");
@@ -20,9 +19,9 @@ class QuadraticFunction {
         }
         else {
             System.out.println("Enter b: ");
-            b = Double.parseDouble(bufferedReader.readLine());
+            b = Double.parseDouble(inputValues.nextLine());
             System.out.println("Enter c: ");
-            c = Double.parseDouble(bufferedReader.readLine());
+            c = Double.parseDouble(inputValues.nextLine());
         }
     }
 
