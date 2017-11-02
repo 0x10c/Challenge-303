@@ -4,19 +4,20 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Random;
+import java.util.Scanner;
 
 class GuessNumber {
     public static void main(String[] args) throws IOException {
         double generateNumber, guessNumber;
+        Scanner inputValues = new Scanner(System.in);
 
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Generated a number from 0 - 100");
         System.out.println("Enter a value: ");
 
         Random randomNumber = new Random();
         generateNumber = Math.round(100*(randomNumber.nextDouble()));
 
-        guessNumber = Double.parseDouble(reader.readLine());
+        guessNumber = Double.parseDouble(inputValues.nextLine());
         if(guessNumber == generateNumber) {
             System.out.println("Well done!");
         }
