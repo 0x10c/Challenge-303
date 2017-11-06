@@ -40,9 +40,14 @@ Folder named '3' contains a package named Challenge3
   - 017 - Converter [decimal] to [hexadecimal]. User can enter a values from keyboard.
   - 018 - Converter [decimal] to [octal]. User can enter a values from keyboard.
   - 019 - Converter [binary] to [octal]. User can enter a values from keyboard.
-  - 020 - 
-  - 021 - Compare two Integers.
-  - 022 -
+  - 020 - Enter two numbers (int). Compare them by displaying: 
+            ````
+          " > " if a is greater than b.
+          " < " If a is less than b.
+          " = " If both values are equal.
+          ````
+  - 021 - Enter two numbers (Integer) and compare them - like as in 020.
+  - 022 - 
   - 023 - 
   - 024 - 
   - 025 - 
