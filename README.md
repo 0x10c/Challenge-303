@@ -52,7 +52,7 @@ Folder named '3' contains a package named Challenge3
   - 024 - Create array with random values. Check two conditions. 
        - First condition: if first and last elements are equals 10 return true. If first or last elment isn't equals to 10 = false.
        - Second codition: first or last elements must be equals to 10 then return true. If first and last elements are not eqials to 10 return false.
-  - 025 - 
+  - 025 - Create two arays with random (int) elements. Create method which returns one random int from these two arrays.
   - 026 - 
   - 027 - 
   - 028 - 
