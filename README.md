@@ -47,9 +47,11 @@ Folder named '3' contains a package named Challenge3
           " = " If both values are equal.
           ````
   - 021 - Enter two numbers (Integer) and compare them - like as in 020.
-  - 022 - 
-  - 023 - 
-  - 024 - 
+  - 022 - Create three loops. In the first loop display numbers from 0 to 100 divided only by 3. In the second loop divided only by 5 and in third loop divided only by 3 and 5.
+  - 023 - Create boolean method ````ex. result```` which checks if the sum of a and b (entered from the keyboard) is equal to c (entered from the keyboard). Return true if it's and false if it's not.
+  - 024 - Create array with random values. Check two conditions. 
+       - First condition: if first and last elements are equals 10 return true. If first or last elment isn't equals to 10 = false.
+       - Second codition: first or last elements must be equals to 10 then return true. If first and last elements are not eqials to 10 return false.
   - 025 - 
   - 026 - 
   - 027 - 
