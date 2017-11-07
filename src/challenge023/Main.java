@@ -11,16 +11,16 @@ public class Main {
 		int i, j, k;
 		Scanner putValue = new Scanner(System.in);
 		
-		System.out.println("Enter first value: ");
+		System.out.print("Enter first value: ");
 		i = putValue.nextInt();
 		
-		System.out.println("Enter second value: ");
+		System.out.print("Enter second value: ");
 		j = putValue.nextInt();
 		
 		System.out.print("Enter third value: ");
 		k = putValue.nextInt();
 		
-		System.out.println("Sum for " + result(i, j, k));
+		System.out.println("Result: " + result(i, j, k));
 		System.out.print("\n");
 	}
 }
