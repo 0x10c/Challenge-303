@@ -54,10 +54,10 @@ Folder named '3' contains a package named Challenge3
        - Second codition: first or last elements must be equals to 10 then return true. If first and last elements are not eqials to 10 return false.
   - 025 - Create two arays with random (int) elements. Create method which returns one random int from these two arrays.
   - 026 - Get the largest value between first and last element of an array of numbers (int).
-  - 027 - 
-  - 028 - 
+  - 027 - Measure the time taken to generate 10 numbers (0 - 10)
+  - 028 - Put to array some numbers. Read value from user and check if it's in array.
   - 029 - 
-  - 030 -  
+  - 030 - [FizzBuzz]
   - (...)
   - 055 - Calculate area of rectangle - User can enter a values from keyboard - Create three methods to: getting values, calculate and print result.
   #### Example
@@ -85,3 +85,4 @@ class RectangleArea {
 [binary]: <https://en.wikipedia.org/wiki/Binary_number>
 [octal]: <https://en.wikipedia.org/wiki/Octal> 
 [hexadecimal]: <https://en.wikipedia.org/wiki/Hexadecimal>
+[FizzBuzz]: <https://en.wikipedia.org/wiki/Fizz_buzz>
