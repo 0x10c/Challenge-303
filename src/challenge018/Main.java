@@ -2,7 +2,7 @@ package challenge018;
 
 import java.util.Scanner;
 
-public class Main {
+class DecimalToOctal {
 	private static int decimal;
 	private static String octal;
 	private static Scanner scanner = new Scanner(System.in);

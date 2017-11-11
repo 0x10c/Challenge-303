@@ -2,7 +2,7 @@ package challenge023;
 
 import java.util.Scanner;
 
-public class Main {
+class CompareValues {
 	public static boolean result(int a, int b, int c) {
 		return ((a + b) == c || (b + c) == a || (a + c) == b);
 	}

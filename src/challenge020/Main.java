@@ -2,9 +2,7 @@ package challenge020;
 
 import java.util.Scanner;
 
-// compare two int 
-// rename package number to lower
-public class Main {
+class CompareNumbers {
 	public static void main(String[] args) {
 		int firstNumber, secondNumber;
 		@SuppressWarnings("resource")

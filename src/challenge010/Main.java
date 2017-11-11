@@ -1,6 +1,6 @@
 package challenge010;
 
-public class Main {
+class DiagonalNumbers {
     public static void main(String[] args) {
         int matrix[][] = new int[10][10];
         int sum, i, j = 0, n = 10;

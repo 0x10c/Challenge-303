@@ -2,7 +2,7 @@ package challenge031;
 
 import java.util.Scanner;
 
-public class Main {
+class LeapYear {
 
     private static boolean isYearLeap(int year) {
         if(year % 400 == 0 || ((year % 4 == 0) && (year % 100 != 0))) {

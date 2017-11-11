@@ -1,6 +1,6 @@
 package challenge011;
 
-public class Main {
+class DiagonalArray {
     public static void main(String[] args) {
         int matrix[][] = new int[10][10];
         int sum, i, j, n = 10;

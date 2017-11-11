@@ -2,7 +2,7 @@ package challenge028;
 
 import java.util.Scanner;
 
-public class Main {
+class IsValueInArray {
     public static void main(String[] args) {
         int elements[] = {-5, 3, 8, 10, 15, 18, 19, 21, 22, 25, 27, 31, 35, 38, 40, 42, 44, 50};
         boolean value = false;

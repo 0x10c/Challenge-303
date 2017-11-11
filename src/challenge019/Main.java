@@ -2,9 +2,8 @@ package challenge019;
 
 import java.util.Scanner;
 
-public class Main {
+class BinaryToOctal {
 	private static Integer binary;
-	private static String octal;
 	private static Scanner scanner = new Scanner(System.in);
 	
 	private void getValue() {
@@ -18,8 +17,8 @@ public class Main {
 	}
 	
 	public static void main(String[] args) {
-		Main main = new Main(); 
-		main.getValue();
-		main.convert();
+		BinaryToOctal binaryToOctal = new BinaryToOctal();
+		binaryToOctal.getValue();
+		binaryToOctal.convert();
 	}
 }

@@ -2,7 +2,7 @@ package challenge029;
 
 import java.util.Scanner;
 
-public class Main2 {
+class NumberOfTheDayName2 {
 
     private static String getDayName(int dayNumber) {
         String dayName;

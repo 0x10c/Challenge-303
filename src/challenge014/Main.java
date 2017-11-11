@@ -1,6 +1,6 @@
 package challenge014;
 
-public class Main {
+class TwoColumnsArray {
     public static void main(String[] args) {
         int i, j, n = 10;
         int matrix[][]= new int[n][n];

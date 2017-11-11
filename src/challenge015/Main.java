@@ -2,7 +2,7 @@ package challenge015;
 
 import java.util.Scanner;
 
-public class Main {
+class SumOfDigits {
     public static void main(String[] args) {
     	Scanner inputValue = new Scanner(System.in);
     	System.out.println("Type a number: ");

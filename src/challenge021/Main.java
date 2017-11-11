@@ -2,8 +2,7 @@ package challenge021;
 
 import java.util.Scanner;
 
-// compare two Integers
-public class Main {
+class CompareIntegers {
 	public static void main(String[] args) {
 		Integer firstNumber, secondNumber;
 		int result;

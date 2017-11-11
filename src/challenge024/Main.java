@@ -1,6 +1,6 @@
 package challenge024;
 
-public class Main {
+class CompaerArrayNumbers {
 	public static void main(String[] args) {
 		int elements[] = {10, 15, 20, 25, 30, 45};
 		

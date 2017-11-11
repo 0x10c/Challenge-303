@@ -1,6 +1,6 @@
 package challenge027;
 
-public class Main {
+class TimeToGenerateNumbers {
     public static void main(String[] args) {
         long timeStart = System.nanoTime();
 

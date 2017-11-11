@@ -2,7 +2,7 @@ package challenge016;
 
 import java.util.Scanner;
 
-public class Main {
+class DecimalToBinary {
 	private static int decimal;
 	private static String binary;
 	private static Scanner scanner = new Scanner(System.in);

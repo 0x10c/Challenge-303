@@ -3,13 +3,13 @@ package challenge025;
 import java.util.Arrays;
 import java.util.Random;
 
-public class Main {
+class ArrayRandomNumbers {
 	private int getRandom(int random[]) {
 		return random[(new Random()).nextInt(random.length)];
 	}
 	
 	public static void main(String[] args) {
-		Main newRandomArray = new Main();
+		ArrayRandomNumbers newRandomArray = new ArrayRandomNumbers();
 		
 		int elements1[] = {-5, 8, 15, 19, 21, 27, 38, 42, 50};
 		int elements2[] = {3, 10, 18, 22, 25, 31, 35, 40, 44};

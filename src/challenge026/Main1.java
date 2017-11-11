@@ -4,7 +4,7 @@ package challenge026;
 
 import java.util.Arrays;
 
-public class Main1 {
+class GetLargestAndSmallestValue1 {
     public static void main(String[] args) {
         int elements[] = { -3, 5, 10, 17, 8, 23, 44, 52 };
         System.out.println("Original array: " + Arrays.toString(elements));

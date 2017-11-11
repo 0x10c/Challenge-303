@@ -1,6 +1,6 @@
 package challenge022;
 
-public class Main {	
+class DivideBy {
     public static void main(String[] args) {
  
     	System.out.println("\nDivided by 3: ");

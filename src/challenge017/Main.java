@@ -1,8 +1,8 @@
 package challenge017;
 
 import java.util.Scanner;
-// decimal to hexadecimal
-public class Main {
+
+class DecimalToHexadecimal {
 	private static int decimal;
 	private static String hexadecimal;
 	private static Scanner scanner = new Scanner(System.in);
