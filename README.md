@@ -58,6 +58,7 @@ Folder named '3' contains a package named Challenge3
   - 028 - Put to array some numbers. Read value from user and check if it's in array.
   - 029 - Compare the enteredvalue (1 to 7) by day of the week. If you put 1 on input on the output print: Monday. For 3 - Wednesday, 4 - Thursday (...). Remember about 0 and values greater than 7.
   - 030 - [FizzBuzz]
+  - 031 - Check if the year is a leap year. Year 2016 is a leap year but 2011 isn't.
   - (...)
   - 055 - Calculate area of rectangle - User can enter a values from keyboard - Create three methods to: getting values, calculate and print result.
   #### Example
