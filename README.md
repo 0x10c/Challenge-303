@@ -59,6 +59,36 @@ Folder named '3' contains a package named Challenge3
   - 029 - Compare the enteredvalue (1 to 7) by day of the week. If you put 1 on input on the output print: Monday. For 3 - Wednesday, 4 - Thursday (...). Remember about 0 and values greater than 7.
   - 030 - [FizzBuzz]
   - 031 - Check if the year is a leap year. Year 2016 is a leap year but 2011 isn't.
+  - 032 - Print 10x10 grid. For getting this pattern use ````System.out.printf("%1dX")````.
+  
+  #### Example
+  ````
+  0X0X0X0X0X0X0X0X0X0X
+  0X0X0X0X0X0X0X0X0X0X
+  0X0X0X0X0X0X0X0X0X0X
+  0X0X0X0X0X0X0X0X0X0X
+  0X0X0X0X0X0X0X0X0X0X
+  0X0X0X0X0X0X0X0X0X0X
+  0X0X0X0X0X0X0X0X0X0X
+  0X0X0X0X0X0X0X0X0X0X
+  0X0X0X0X0X0X0X0X0X0X
+  0X0X0X0X0X0X0X0X0X0X
+  ````
+  - 033 Print 10x10 grid. For getting this pattern use ````System.out.printf("%1dX")````.
+  
+  #### Example
+  ````
+0X000000000X
+00X0000000X0
+000X00000X00
+0000X000X000
+00000X0X0000
+00000X0X0000
+0000X000X000
+000X00000X00
+00X0000000X0
+0X000000000X
+````
   - (...)
   - 055 - Calculate area of rectangle - User can enter a values from keyboard - Create three methods to: getting values, calculate and print result.
   #### Example
