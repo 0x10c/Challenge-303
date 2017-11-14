@@ -91,8 +91,10 @@ Folder named '3' contains a package named Challenge3
 ````
   - 034 - Convert array to ArrayList
   - 035 - Check if first array(int) is equals to second array(int). Arrays are the same when they have the same elements.
+  - 036 - Find largest element in array(int).
   - (...)
   - 055 - Calculate area of rectangle - User can enter a values from keyboard - Create three methods to: getting values, calculate and print result.
+
   #### Example
   ````java
 class RectangleArea {
