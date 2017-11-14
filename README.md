@@ -89,6 +89,8 @@ Folder named '3' contains a package named Challenge3
 00X0000000X0
 0X000000000X
 ````
+  - 034 - Convert array to ArrayList
+  - 035 - Check if first array(int) is equals to second array(int). Arrays are the same when they have the same elements.
   - (...)
   - 055 - Calculate area of rectangle - User can enter a values from keyboard - Create three methods to: getting values, calculate and print result.
   #### Example
