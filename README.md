@@ -92,6 +92,7 @@ Folder named '3' contains a package named Challenge3
   - 034 - Convert array to ArrayList
   - 035 - Check if first array(int) is equals to second array(int). Arrays are the same when they have the same elements.
   - 036 - Find largest element in array(int).
+  - 037 - Get minimum and maximu value from array(int).
   - (...)
   - 055 - Calculate area of rectangle - User can enter a values from keyboard - Create three methods to: getting values, calculate and print result.
 
@@ -114,10 +115,13 @@ class RectangleArea {
   ```` 
   - 057 - Two dimension array - print the diagonally (start from last array index) random values. Use 
   ``` java.util.random```
-  -
+  - (...)
+  - 060 - Pascal triangle
+   
    
 [decimal]: <https://en.wikipedia.org/wiki/Decimal>
 [binary]: <https://en.wikipedia.org/wiki/Binary_number>
 [octal]: <https://en.wikipedia.org/wiki/Octal> 
 [hexadecimal]: <https://en.wikipedia.org/wiki/Hexadecimal>
 [FizzBuzz]: <https://en.wikipedia.org/wiki/Fizz_buzz>
+[PA] <http://www.mathsisfun.com/pascals-triangle.html>
