@@ -116,7 +116,7 @@ class RectangleArea {
   - 057 - Two dimension array - print the diagonally (start from last array index) random values. Use 
   ``` java.util.random```
   - (...)
-  - 060 - Pascal triangle
+  - 060 - [PA] - Pascal triangle
    
    
 [decimal]: <https://en.wikipedia.org/wiki/Decimal>
@@ -124,4 +124,4 @@ class RectangleArea {
 [octal]: <https://en.wikipedia.org/wiki/Octal> 
 [hexadecimal]: <https://en.wikipedia.org/wiki/Hexadecimal>
 [FizzBuzz]: <https://en.wikipedia.org/wiki/Fizz_buzz>
-[PA] <http://www.mathsisfun.com/pascals-triangle.html>
+[PA]: <http://www.mathsisfun.com/pascals-triangle.html>
