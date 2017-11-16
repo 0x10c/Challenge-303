@@ -17,7 +17,9 @@ class DateIn {
         dateFormat.setTimeZone(TimeZone.getTimeZone("Europe/Moscow"));
         String moscow = dateFormat.format(timeToday);
 
+        dateFormat.setTimeZone(TimeZone.getTimeZone("Asia/Ho_Chi_Minh"));
+        String hoChiMinh = dateFormat.format(timeToday);
 
-        System.out.println("Date in New York: " + newYork + "\nDate in Moscow: " + moscow);
+        System.out.println("Date in New York: " + newYork + "\nDate in Moscow: " + moscow + "\nDate in Ho Chi Minh: " + hoChiMinh);
     }
 }
