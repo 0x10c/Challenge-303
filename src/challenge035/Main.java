@@ -1,6 +1,6 @@
 package challenge035;
 
-public class Main {
+class CompareArrays {
     public static void main(String[] args) {
         int someNumbers[] = { -5, 3, 8, 10, 15, 18, 19 };
         // int someNumbers[] = { -5, 3, 8, 10, 15, 18, 19 };
