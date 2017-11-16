@@ -93,6 +93,14 @@ Folder named '3' contains a package named Challenge3
   - 035 - Check if first array(int) is equals to second array(int). Arrays are the same when they have the same elements.
   - 036 - Find largest element in array(int).
   - 037 - Get minimum and maximu value from array(int).
+  - 038 - Display year, month, day of the week, hour, minutes and seconds.
+  - 039 - Get current date and time in New York, Moscow and Ho Chi Minh.
+  - 040 - Get name of the first and last day of current month.
+  - 041 - 
+  - 042 - 
+  - 043 - 
+  - 044 - 
+  - 045 - 
   - (...)
   - 055 - Calculate area of rectangle - User can enter a values from keyboard - Create three methods to: getting values, calculate and print result.
 
