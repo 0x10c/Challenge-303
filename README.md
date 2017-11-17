@@ -100,7 +100,7 @@ Folder named '3' contains a package named Challenge3
   - 042 - Print date for 15 days from today. And 15 days ago starting from today.
   - 043 - Convert String to date.
   - 044 - Display the number of vowels in the String. User can enter String from keyboard.
-  - 045 - 
+  - 045 - Count and display all words in the input String.
   - (...)
   - 055 - Calculate area of rectangle - User can enter a values from keyboard - Create three methods to: getting values, calculate and print result.
 
