@@ -96,10 +96,10 @@ Folder named '3' contains a package named Challenge3
   - 038 - Display year, month, day of the week, hour, minutes and seconds.
   - 039 - Get current date and time in New York, Moscow and Ho Chi Minh.
   - 040 - Get name of the first and last day of current month.
-  - 041 - 
-  - 042 - 
-  - 043 - 
-  - 044 - 
+  - 041 - Get a difference between today and random date.
+  - 042 - Print date for 15 days from today. And 15 days ago starting from today.
+  - 043 - Convert String to date.
+  - 044 - Display the number of vowels in the String. User can enter String from keyboard.
   - 045 - 
   - (...)
   - 055 - Calculate area of rectangle - User can enter a values from keyboard - Create three methods to: getting values, calculate and print result.
