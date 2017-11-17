@@ -3,7 +3,7 @@ package challenge044;
 import java.util.Scanner;
 
 class VowelsInString {
-    private static double vowelsInString(String getWords) {
+    private static int vowelsInString(String getWords) {
         int i, counter = 0;
 
         for(i = 0; i < getWords.length(); i++) {
@@ -28,6 +28,6 @@ class VowelsInString {
         System.out.println("Put your string: ");
         String getWords = inputValue.nextLine();
 
-        System.out.println("Vowels: " + (int)vowelsInString(getWords));
+        System.out.println("Vowels: " + vowelsInString(getWords));
     }
 }
