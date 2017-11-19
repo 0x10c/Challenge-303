@@ -10,7 +10,7 @@ public class Main extends PasswordDependency {
         System.out.println("Input password: ");
         String typePassword = inputValue.nextLine();
 
-        if(isPasswordCorrect(typePassword)) {
+        if(doPasswordIsCorrect(typePassword)) {
             System.out.println("Password is ok! " + inputValue);
         }
         else {

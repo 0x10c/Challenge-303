@@ -3,25 +3,25 @@ package challenge080;
 public class PasswordDependency {
     private static final int PASSWORD_LENGTH = 10;
 
-    private static boolean ifPasswordHasLetters(char letterChar) {
+    private static boolean doPasswordHasLetters(char letterChar) {
         letterChar = Character.toLowerCase(letterChar);
         return (letterChar >= 'A' && letterChar <= 'Z');
     }
 
-    private static boolean ifPasswordNumeric(char numericChar) {
+    private static boolean doPasswordHasNumerics(char numericChar) {
         return (numericChar >= '0' && numericChar <= '9');
     }
 
-    public static boolean isPasswordCorrect(String password) {
+    protected static boolean doPasswordIsCorrect(String password) {
         int chars = 0;
         int nums = 0;
 
         for (int i = 0; i < password.length(); i++) {
             char chr = password.charAt(i);
 
-            if (ifPasswordHasLetters(chr)) {
+            if (doPasswordHasLetters(chr)) {
                 chars++;
-            } else if (ifPasswordNumeric(chr)) {
+            } else if (doPasswordHasNumerics(chr)) {
                 nums++;
             }
             else {
@@ -29,10 +29,11 @@ public class PasswordDependency {
             }
         }
 
+        //return password.length() >= PASSWORD_LENGTH && (chars >= 3 && nums >= 3);
         if (password.length() < PASSWORD_LENGTH) {
             return false;
         }
 
-        return (chars >= 3 && nums >= 3);
+        return (chars >= 7 && nums >= 3);
     }
 }
