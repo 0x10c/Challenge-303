@@ -101,6 +101,27 @@ Folder named '3' contains a package named Challenge3
   - 043 - Convert String to date.
   - 044 - Display the number of vowels in the String. User can enter String from keyboard.
   - 045 - Count and display all words in the input String.
+  - 046 - Take numeric value (n) and (m) from user and print grid (n) x (n) with 0 and 1 only.
+  
+  #### Example
+  ````
+1 1 1 1 0 
+1 0 0 0 1 
+1 0 0 1 1 
+1 1 1 1 1 
+1 1 0 0 1 
+````
+  - 047 - This is exactly the same exercise as 046 but now print grid (n) x (m) with 0 and 1 only.
+  
+  #### Example
+  ````
+1 0 0 0 1 1 0 
+1 0 1 1 1 1 1 
+1 0 1 0 0 1 1 
+1 1 0 0 0 1 0 
+````
+  - 048 - Prime numbers between 0 and 500.
+  - 049 - Simple random number generator. Generate 10 numbers from 0 - 100.
   - (...)
   - 055 - Calculate area of rectangle - User can enter a values from keyboard - Create three methods to: getting values, calculate and print result.
 
@@ -125,6 +146,9 @@ class RectangleArea {
   ``` java.util.random```
   - (...)
   - 060 - [PA] - Pascal triangle
+  #### Tasks from Codingbat.com
+  - 061 - 
+  - 080 - Password checker. Dependencies: minimum 10 characters. Only letters and minimum 3 digits values
    
    
 [decimal]: <https://en.wikipedia.org/wiki/Decimal>
