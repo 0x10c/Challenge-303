@@ -2,7 +2,7 @@ package challenge045;
 
 import java.util.Scanner;
 
-public class Main {
+class WordsCounter {
     private static int wordsInString(String getWords) {
         int i, counter = 0;
 
