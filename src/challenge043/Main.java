@@ -8,6 +8,7 @@ import java.util.Scanner;
 class StringToDate {
     public static void main(String[] args) {
         Scanner inputValue = new Scanner(System.in);
+        System.out.println("Type date ex. May 9, 1999: ");
         String dateToConvert = inputValue.nextLine();
 
         DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("MMMM d, yyyy", Locale.ENGLISH);
