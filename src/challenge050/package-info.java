@@ -1,5 +1,5 @@
 /*
- * This package is part of project 'Challenge-303'.
+ * Compare two dates (java.util.Date)
  * Read more: https://github.com/theacid/Challenge-303/blob/master/README.md
  */
 
