@@ -26,7 +26,7 @@ Folder named '3' contains a package named Challenge3
   - 009 - Create two dimmension array - 10x10. For [0][0] the value is 1. For [1][1] the value is 1. For [2][2] the value is 1 etc.
   - 010 - Two dimension array - print the diagonally (start from first array index 0) numbers from 0 to 10. For [0][0] the value is 1. For [1][2] the value is 2 etc.
   - 011 - Two dimension array - print the diagonally (start from last array index) numbers from 0 to 10.
-  #### Example:
+  ##### Example:
   ````
   [x][y] - For last [x] and first [y] value is 1. For penultimate [x] and second [y] value is 1. For all other elements is 0
   ````
@@ -34,7 +34,7 @@ Folder named '3' contains a package named Challenge3
   - 013 - Multiplication table with do while loop.
   - 014 - Two dimension array - print two columns (starting from position [0][0]. Multiply the first value (from first column) by yourself and print her in second column.
   - 015 - Calculate the sum of the digits of the given number.
-  #### Example
+  ##### Example
   ```` For 30 sum is 3. For 75 sum is 12. For 129 sum is 12 (..)````
   - 016 - Converter [decimal] to [binary]. User can enter a values from keyboard.
   - 017 - Converter [decimal] to [hexadecimal]. User can enter a values from keyboard.
@@ -61,7 +61,7 @@ Folder named '3' contains a package named Challenge3
   - 031 - Check if the year is a leap year. Year 2016 is a leap year but 2011 isn't.
   - 032 - Print 10x10 grid. For getting this pattern use ````System.out.printf("%1dX")````.
   
-  #### Example
+  ##### Example
   ````
   0X0X0X0X0X0X0X0X0X0X
   0X0X0X0X0X0X0X0X0X0X
@@ -76,7 +76,7 @@ Folder named '3' contains a package named Challenge3
   ````
   - 033 Print 10x10 grid. For getting this pattern use ````System.out.printf("%1dX")````.
   
-  #### Example
+  ##### Example
   ````
 0X000000000X
 00X0000000X0
@@ -103,7 +103,7 @@ Folder named '3' contains a package named Challenge3
   - 045 - Count and display all words in the input String.
   - 046 - Take numeric value (n) and (m) from user and print grid (n) x (n) with 0 and 1 only.
   
-  #### Example
+  ##### Example
   ````
 1 1 1 1 0 
 1 0 0 0 1 
@@ -113,7 +113,7 @@ Folder named '3' contains a package named Challenge3
 ````
   - 047 - This is exactly the same exercise as 046 but now print grid (n) x (m) with 0 and 1 only.
   
-  #### Example
+  ##### Example
   ````
 1 0 0 0 1 1 0 
 1 0 1 1 1 1 1 
@@ -122,10 +122,14 @@ Folder named '3' contains a package named Challenge3
 ````
   - 048 - Prime numbers between 0 and 500.
   - 049 - Simple random number generator. Generate 10 numbers from 0 - 100.
-  - (...)
+  - 050 - Compare two (hardcoded) dates.
+  - 051 - 
+  - 052 - 
+  - 053 - 
+  - 054 - 
   - 055 - Calculate area of rectangle - User can enter a values from keyboard - Create three methods to: getting values, calculate and print result.
 
-  #### Example
+  ##### Example
   ````java
 class RectangleArea {
     private void readValues() {}
@@ -134,7 +138,7 @@ class RectangleArea {
 }
 ````
   - 056 - Quadratic Function calc - User can enter a values from keyboard - Create three methods to: getting values, calculate and print result.
-  #### Example
+  ##### Example
   ```` java 
   class QuadraticFunction {
       private void readValues() {}
@@ -144,9 +148,16 @@ class RectangleArea {
   ```` 
   - 057 - Two dimension array - print the diagonally (start from last array index) random values. Use 
   ``` java.util.random```
-  - (...)
+  - 058 -
+  - 059 - Generate a random number value between two entered values
+ ##### Example
+  ````
+  Starting value: 10
+  Ending value: 50
+  Random number between these two values: 23
+  ````
   - 060 - [PA] - Pascal triangle
-  #### Tasks from Codingbat.com
+
   - 061 - 
   - 080 - Password checker. Dependencies: minimum 10 characters. Only letters and minimum 3 digits values
    
