@@ -158,7 +158,8 @@ class RectangleArea {
   ````
   - 060 - [PA] - Pascal triangle
 
-  - 061 - 
+  - 061 - List files from any directory.
+  - 062 - List files with some extension from any directory.
   - 080 - Password checker. Dependencies: minimum 10 characters. Only letters and minimum 3 digits values
    
    
