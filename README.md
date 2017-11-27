@@ -157,9 +157,15 @@ class RectangleArea {
   Random number between these two values: 23
   ````
   - 060 - [PA] - Pascal triangle
-
   - 061 - List files from any directory.
   - 062 - List files with some extension from any directory.
+  - 063 - Check  if file or directory exist in specified location.
+  - 064 - Get last modified time of a file.
+  - 065 - Get filesize in bytes, kilobytes and megabytes.
+  - 066 - 
+  - 067 -
+  - 068 - 
+  - 069 - 
   - 080 - Password checker. Dependencies: minimum 10 characters. Only letters and minimum 3 digits values
    
    
