@@ -19,18 +19,22 @@ class ReadToArray {
                 System.out.println(new String(content, 0, readCounting - 1));
             }
         }
+
         catch(FileNotFoundException exc) {
-            exc.printStackTrace();
+            System.out.println("File " + file + "not found.");
         }
+
         catch(IOException exc) {
-            exc.printStackTrace();
+            System.out.println("Error reading file " + file);
         }
+
         finally {
             try {
                 if(inputStream != null) { inputStream.close(); }
             }
+
             catch(Exception exc) {
-                System.out.println(":C");
+                System.out.println("Error reading file " + file);
             }
         }
     }
