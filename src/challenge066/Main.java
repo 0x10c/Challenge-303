@@ -11,7 +11,7 @@ class FileBufferedReader {
 //            fileReader = new FileReader("/home/theacid/.zshrc");
             fileReader = new FileReader("/directory_name/file_name");
             bufferedReader = new BufferedReader(fileReader);
-            String line;
+            String line = null;
 
             while((line = bufferedReader.readLine()) != null) {
                 System.out.println(line);
@@ -36,6 +36,7 @@ class FileBufferedReader {
                     fileReader.close();
                 }
             }
+
             catch (IOException exc) {
                 exc.printStackTrace();
             }
