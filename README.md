@@ -172,7 +172,7 @@ class RectangleArea {
   - 102 - Add and remove some element from ArrayList, sort and print (before and after sorting).
   - 103 - Check if element exists on the list.
   - 104 - Copy ArrayList to other ArrayList.
-  - 105 - 
+  - 105 - Reverse ArrayList elements.
   - 106 - 
   - 107 - 
   - 108 - 
