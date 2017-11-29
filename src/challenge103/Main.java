@@ -3,7 +3,7 @@ package challenge103;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main {
+class FindArrayListElement {
     public static void main(String[] args) {
         List<String> listOfElements = new ArrayList<>();
         listOfElements.add("Java");

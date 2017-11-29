@@ -3,7 +3,7 @@ package challenge101;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main {
+class IterateArrayList {
     public static void main(String[] args) {
         List<String> listOfElements = new ArrayList<>();
         listOfElements.add("Java");
