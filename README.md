@@ -149,7 +149,7 @@ class RectangleArea {
   - 057 - Two dimension array - print the diagonally (start from last array index) random values. Use 
   ``` java.util.random```
   - 058 -
-  - 059 - Generate a random number value between two entered values
+  - 059 - Generate a random number value between two entered values.
  ##### Example
   ````
   Starting value: 10
@@ -162,12 +162,22 @@ class RectangleArea {
   - 063 - Check  if file or directory exist in specified location.
   - 064 - Get last modified time of a file.
   - 065 - Get filesize in bytes, kilobytes and megabytes.
-  - 066 - 
-  - 067 -
+  - 066 - Read content from txt file and print in console.
+  - 067 - Read txt file line by line.
   - 068 - 
-  - 069 - 
+  - 069 - Read content from file and write to array.
   - 080 - Password checker. Dependencies: minimum 10 characters. Only letters and minimum 3 digits values
-   
+  - 100 - Create ArrayList, add some elements and print them.
+  - 101 - Create ArrayList, iterate all elements of array list and print them.
+  - 102 - Add and remove some element from ArrayList, sort and print (before and after sorting).
+  - 103 - Check if element exists on the list.
+  - 104 - Copy ArrayList to other ArrayList.
+  - 105 - 
+  - 106 - 
+  - 107 - 
+  - 108 - 
+  - 109 - 
+  - 110 - 
    
 [decimal]: <https://en.wikipedia.org/wiki/Decimal>
 [binary]: <https://en.wikipedia.org/wiki/Binary_number>
