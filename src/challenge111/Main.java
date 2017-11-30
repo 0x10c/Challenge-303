@@ -3,7 +3,7 @@ package challenge111;
 import java.util.ArrayList;
 import java.util.List;
 
-class ArrayListJoin {
+class EmptyArrayList {
     public static void main(String[] args) {
         List<String> listOfElements = new ArrayList<>();
         listOfElements.add("Java");
