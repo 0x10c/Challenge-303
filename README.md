@@ -166,18 +166,26 @@ class RectangleArea {
   - 067 - Read txt file line by line.
   - 068 - 
   - 069 - Read content from file and write to array.
-  - 080 - Password checker. Dependencies: minimum 10 characters. Only letters and minimum 3 digits values
+  - {...)
+  - 080 - Password checker. Dependencies: minimum 10 characters. Only letters and minimum 3 digits values.
+  - (...)
   - 100 - Create ArrayList, add some elements and print them.
   - 101 - Create ArrayList, iterate all elements of array list and print them.
   - 102 - Add and remove some element from ArrayList, sort and print (before and after sorting).
   - 103 - Check if element exists on the list.
   - 104 - Copy ArrayList to other ArrayList.
   - 105 - Reverse ArrayList elements.
-  - 106 - 
-  - 107 - 
-  - 108 - 
-  - 109 - 
-  - 110 - 
+  - 106 - Shuffle elements in ArrayList.
+  - 107 - Extract some elements from ArrayList.
+  - 108 - Compare two ArrayLists.
+  - 109 - Clone one ArrayList to another ArrayList.
+  - 110 - Join two ArrayLists.
+  - 111 - Check if ArrayList is empty.
+  - 112 - Add new element on the specified position to ArrayList.
+  - 113 - Replace some element on ArrayList with other (new) element.
+  - 114 - 
+  - 115 - 
+  - 116 - 
    
 [decimal]: <https://en.wikipedia.org/wiki/Decimal>
 [binary]: <https://en.wikipedia.org/wiki/Binary_number>
