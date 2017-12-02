@@ -1,5 +1,5 @@
 /*
- * Replace some element on ArrayList with other (new) element.
+ * Create LinkedList, add some elements and print them
  * Read more: https://github.com/theacid/Challenge-303/blob/master/README.md
  */
 

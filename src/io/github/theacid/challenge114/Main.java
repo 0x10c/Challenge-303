@@ -1,11 +1,10 @@
 package io.github.theacid.challenge114;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.LinkedList;
 
-class ArrayListAddElement {
+class LinkedListAddElement {
     public static void main(String[] args) {
-        List<String> listOfElements = new ArrayList<>();
+        LinkedList<String> listOfElements = new LinkedList<>();
         listOfElements.add("Java");
         listOfElements.add("Scala");
         listOfElements.add("Golang");
@@ -14,15 +13,6 @@ class ArrayListAddElement {
         listOfElements.add("C++");
         listOfElements.add("Elixir");
 
-        System.out.println("Before adding new element: " + listOfElements);
-
-        listOfElements.set(5, "Rust");
-
-        System.out.println("Replacing C++ with Rust.");
-        int arrayListSize = listOfElements.size();
-
-        for(int i = 0; i < arrayListSize; i++) {
-            System.out.println(listOfElements.get(i));
-        }
+        System.out.println("Elements from LinkedList: " + listOfElements);
     }
 }
