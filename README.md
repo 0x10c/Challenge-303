@@ -169,6 +169,7 @@ class RectangleArea {
   - {...)
   - 080 - Password checker. Dependencies: minimum 10 characters. Only letters and minimum 3 digits values.
   - (...)
+  ##### ArrayList
   - 100 - Create ArrayList, add some elements and print them.
   - 101 - Create ArrayList, iterate all elements of array list and print them.
   - 102 - Add and remove some element from ArrayList, sort and print (before and after sorting).
@@ -183,9 +184,10 @@ class RectangleArea {
   - 111 - Check if ArrayList is empty.
   - 112 - Add new element on the specified position to ArrayList.
   - 113 - Replace some element on ArrayList with other (new) element.
-  - 114 - 
-  - 115 - 
-  - 116 - 
+ ##### LinkedList
+  - 114 - Create LinkedList, add some elements and print them.
+  - 115 - Create LinkedList, iterate all elements of array list and print them.
+  - 116 - Reverse LinkedList.
    
 [decimal]: <https://en.wikipedia.org/wiki/Decimal>
 [binary]: <https://en.wikipedia.org/wiki/Binary_number>
