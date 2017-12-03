@@ -123,7 +123,7 @@ Folder named '3' contains a package named Challenge3
   - 048 - Prime numbers between 0 and 500.
   - 049 - Simple random number generator. Generate 10 numbers from 0 - 100.
   - 050 - Compare two (hardcoded) dates.
-  - 051 - 
+  - 051 - Count the occurrences of the values in the array.
   - 052 - 
   - 053 - 
   - 054 - 
@@ -188,7 +188,21 @@ class RectangleArea {
   - 114 - Create LinkedList, add some elements and print them.
   - 115 - Create LinkedList, iterate all elements of array list and print them.
   - 116 - Reverse LinkedList.
-   
+  - 117 - Add element to the LinkedList on the first, last and some random position.
+  - 118 - Get first, last and some random element from LinkedList.
+  - 119 - Display positions and elements from LinkedList.
+  - 120 - Remove first, last and random value from LinkedList.
+  - 121 - 
+  - 122 - 
+  - 123 -
+  - 124 -
+  - 125 -
+  - 126 -
+  - 127 -
+  - 128 -
+  - 129 -
+  
+
 [decimal]: <https://en.wikipedia.org/wiki/Decimal>
 [binary]: <https://en.wikipedia.org/wiki/Binary_number>
 [octal]: <https://en.wikipedia.org/wiki/Octal> 
