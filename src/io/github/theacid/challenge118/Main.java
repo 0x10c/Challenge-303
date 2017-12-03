@@ -2,7 +2,7 @@ package io.github.theacid.challenge118;
 
 import java.util.LinkedList;
 
-class Main {
+class GetElement {
     public static void main(String[] args) {
         LinkedList<String> listOfElements = new LinkedList<>();
         listOfElements.add("Java");
