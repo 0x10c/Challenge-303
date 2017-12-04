@@ -192,14 +192,14 @@ class RectangleArea {
   - 118 - Get first, last and some random element from LinkedList.
   - 119 - Display positions and elements from LinkedList.
   - 120 - Remove first, last and random value from LinkedList.
-  - 121 - 
-  - 122 - 
-  - 123 -
-  - 124 -
-  - 125 -
-  - 126 -
-  - 127 -
-  - 128 -
+  - 121 - Swap two elements on LinkedList.
+  - 122 - Shuffle all elements from LinkedList.
+  - 123 - Clone LinkedList to other.
+  - 124 - Retrieve first and last element of LinkedList.
+  - 125 - Check if the given item is on the list LinkedList.
+  - 126 - Convert LinkedList to ArrayList.
+  - 127 - Compare two LinkedList.
+  - 128 - Check if LinkedList is empty.
   - 129 -
   
 
