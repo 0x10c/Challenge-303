@@ -2,7 +2,7 @@ package io.github.theacid.challenge129;
 
 import java.util.LinkedList;
 
-class CheckIfEmpty {
+class ReplaceElement {
     public static void main(String[] args) {
         LinkedList<String> listOfElements = new LinkedList<>();
         listOfElements.add("Java");
