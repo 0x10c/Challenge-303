@@ -2,7 +2,7 @@ package io.github.theacid.challenge123;
 
 import java.util.LinkedList;
 
-public class Main {
+class CloneList {
     public static void main(String[] args) {
         LinkedList<String> listOfElements = new LinkedList<>();
         listOfElements.add("Java");

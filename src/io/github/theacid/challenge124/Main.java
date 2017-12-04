@@ -1,9 +1,8 @@
 package io.github.theacid.challenge124;
 
-
 import java.util.LinkedList;
 
-public class Main {
+class RetrieveElement {
     public static void main(String[] args) {
         LinkedList<String> listOfElements = new LinkedList<>();
         listOfElements.add("Java");

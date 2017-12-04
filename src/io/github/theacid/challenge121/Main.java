@@ -3,7 +3,7 @@ package io.github.theacid.challenge121;
 import java.util.Collections;
 import java.util.LinkedList;
 
-public class Main {
+class SwapElements {
     public static void main(String[] args) {
         LinkedList<String> listOfElements = new LinkedList<>();
         listOfElements.add("Java");

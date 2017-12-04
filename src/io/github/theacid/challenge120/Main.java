@@ -2,7 +2,7 @@ package io.github.theacid.challenge120;
 
 import java.util.LinkedList;
 
-class Main {
+class RemoveElement {
     public static void main(String[] args) {
         LinkedList<String> listOfElements = new LinkedList<>();
         listOfElements.add("Java");

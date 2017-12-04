@@ -2,9 +2,8 @@ package io.github.theacid.challenge122;
 
 import java.util.Collections;
 import java.util.LinkedList;
-import java.util.Random;
 
-public class Main {
+class ShuffleElements {
     public static void main(String[] args) {
         LinkedList<String> listOfElements = new LinkedList<>();
         listOfElements.add("Java");
