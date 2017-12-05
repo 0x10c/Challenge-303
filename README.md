@@ -201,6 +201,29 @@ class RectangleArea {
   - 127 - Compare two LinkedList.
   - 128 - Check if LinkedList is empty.
   - 129 - Replace element on LinkedList.
+  ##### HashSet
+  - 130 - Create HashSet, add some elements and print them.
+  - 131 - Create HashSet, iterate all elements of array list and print them.
+  - 132 - Get the number of elements from HashSet.
+  - 133 - Create method to check is HashSet is empty. If it's not empty - print values. and number of elements (size).
+  - 134 - Clone HashSet to another.
+  - 135 - Display the same elements from two HashSets.
+  - 136 - 
+  - 137 - 
+  - 138 - 
+  - 139 - 
+  - 140 -  
+  - 141 -  
+  - 142 -  
+  - 143 -  
+  - 144 -  
+  - 145 -  
+  - 146 -  
+  - 147 -  
+  - 148 -  
+  - 149 -  
+  - 150 -  
+
   
 
 [decimal]: <https://en.wikipedia.org/wiki/Decimal>
