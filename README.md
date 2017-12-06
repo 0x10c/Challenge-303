@@ -208,7 +208,7 @@ class RectangleArea {
   - 133 - Create method to check is HashSet is empty. If it's not empty - print values. and number of elements (size).
   - 134 - Clone HashSet to another.
   - 135 - Display the same elements from two HashSets.
-  - 136 - 
+  - 136 - Convert HashSet to array.
   - 137 - 
   - 138 - 
   - 139 - 
