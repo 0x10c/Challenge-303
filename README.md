@@ -209,9 +209,9 @@ class RectangleArea {
   - 134 - Clone HashSet to another.
   - 135 - Display the same elements from two HashSets.
   - 136 - Convert HashSet to array.
-  - 137 - 
-  - 138 - 
-  - 139 - 
+  - 137 - Compare two HashSet.
+  - 138 - Convert HashSet to ArrayList.
+  - 139 - List all common elements from two HashSets.
   - 140 -  
   - 141 -  
   - 142 -  
