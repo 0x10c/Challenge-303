@@ -212,16 +212,17 @@ class RectangleArea {
   - 137 - Compare two HashSet.
   - 138 - Convert HashSet to ArrayList.
   - 139 - List all common elements from two HashSets.
-  - 140 -  
-  - 141 -  
-  - 142 -  
-  - 143 -  
-  - 144 -  
-  - 145 -  
-  - 146 -  
-  - 147 -  
-  - 148 -  
-  - 149 -  
+  - 140 - Remove all elements from HashSet and check if it's empty.
+  ##### TreeSet
+  - 141 - Create TreeSet, add some elements and print them.
+  - 142 - Iterate all elements of TreeSet list and print them
+  - 143 - Get the number of elements from TreeSet.
+  - 144 - Move all elements from one TreeSet to other and print all them.
+  - 145 - Reverse elements in TreeSet.
+  - 146 - Get first and last element from TreeSet.
+  - 147 - Clone all one TreeSet to another.
+  - 148 - Compare elements from two TreeSets
+  - 149 - Create Integer TreeSet with values from 1 to 10. Print values less than 5 (without 5).
   - 150 -  
 
   
