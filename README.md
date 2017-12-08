@@ -164,7 +164,7 @@ class RectangleArea {
   - 065 - Get filesize in bytes, kilobytes and megabytes.
   - 066 - Read content from txt file and print in console.
   - 067 - Read txt file line by line.
-  - 068 - 
+  - 068 - Add text to existing file.
   - 069 - Read content from file and write to array.
   - {...)
   - 080 - Password checker. Dependencies: minimum 10 characters. Only letters and minimum 3 digits values.
@@ -223,7 +223,7 @@ class RectangleArea {
   - 147 - Clone all one TreeSet to another.
   - 148 - Compare elements from two TreeSets
   - 149 - Create Integer TreeSet with values from 1 to 10. Print values less than 5 (without 5).
-  - 150 -  
+  - 150 - Remove first and last element in TreeSet.
 
   
 
