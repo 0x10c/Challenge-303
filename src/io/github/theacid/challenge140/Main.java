@@ -1,10 +1,10 @@
 package io.github.theacid.challenge140;
 
-import java.util.LinkedHashSet;
+import java.util.HashSet;
 
 public class Main {
     public static void main(String[] args) {
-        LinkedHashSet<String> listOfElements = new LinkedHashSet<>();
+        HashSet<String> listOfElements = new HashSet<>();
         listOfElements.add("Java");
         listOfElements.add("Scala");
         listOfElements.add("Golang");
