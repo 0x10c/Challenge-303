@@ -6,23 +6,23 @@ import java.util.TreeSet;
 public class Main {
     public static void main(String[] args) {
 
-        TreeSet<Integer> listOfElements = new TreeSet<>();
-        TreeSet<Integer> treeheadset;
+        TreeSet<Integer> listOfNumbers = new TreeSet<>();
+        TreeSet<Integer> newList;
 
-        listOfElements.add(1);
-        listOfElements.add(2);
-        listOfElements.add(3);
-        listOfElements.add(4);
-        listOfElements.add(5);
-        listOfElements.add(6);
-        listOfElements.add(7);
-        listOfElements.add(8);
-        listOfElements.add(9);
-        listOfElements.add(10);
+        listOfNumbers.add(1);
+        listOfNumbers.add(2);
+        listOfNumbers.add(3);
+        listOfNumbers.add(4);
+        listOfNumbers.add(5);
+        listOfNumbers.add(6);
+        listOfNumbers.add(7);
+        listOfNumbers.add(8);
+        listOfNumbers.add(9);
+        listOfNumbers.add(10);
 
-        treeheadset = (TreeSet<Integer>)listOfElements.headSet(5);
+        newList = (TreeSet<Integer>)listOfNumbers.headSet(5);
         Iterator iterator;
-        iterator = treeheadset.iterator();
+        iterator = newList.iterator();
 
         System.out.println("TreeSet: ");
         while(iterator.hasNext()) {
