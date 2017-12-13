@@ -224,6 +224,19 @@ class RectangleArea {
   - 148 - Compare elements from two TreeSets
   - 149 - Create Integer TreeSet with values from 1 to 10. Print values less than 5 (without 5).
   - 150 - Remove first and last element in TreeSet.
+  ##### HashMap
+  - 151 - Create HashMap, add values and keys, iterate all elements and print them.
+  - 152 - Count elements in HashMap.
+  - 153 - Copy all elements from one HashMap to another (new) Map.
+  - 154 - Clone HashMap.
+  - 155 - Check if HashMap contains specified key.
+  - 156 - Check if HashMap contains specified value.
+  - 157 - Get the values of  keys and get a set of values contained in map.
+  ##### TreeMap
+  - 158 - Create TreeMap, add some elements and print them.
+  - 159 - Get a specified key and value from TreeMap.
+  - 160 - Put all elements from one TreeMap to other.
+  - 161 - Get all keys from TreeMap.
 
   
 
