@@ -1,10 +1,11 @@
 package io.github.theacid.challenge130;
 
 import java.util.HashSet;
+import java.util.Set;
 
 public class Main {
     public static void main(String[] args) {
-        HashSet<String> listOfElements = new HashSet<>();
+        Set<String> listOfElements = new HashSet<>();
         listOfElements.add("Java");
         listOfElements.add("Scala");
         listOfElements.add("Golang");

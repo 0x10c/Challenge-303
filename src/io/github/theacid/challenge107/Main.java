@@ -3,7 +3,7 @@ package io.github.theacid.challenge107;
 import java.util.ArrayList;
 import java.util.List;
 
-class ExtractFromArrayList {
+class Main {
     public static void main(String[] args) {
         List<String> listOfElements = new ArrayList<>();
         listOfElements.add("Java");

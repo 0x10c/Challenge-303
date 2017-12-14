@@ -1,10 +1,11 @@
 package io.github.theacid.challenge160;
 
+import java.util.Map;
 import java.util.TreeMap;
 
 public class Main {
     public static void main(String[] args) {
-        TreeMap<Integer, String> listOfElements = new TreeMap<>();
+        Map<Integer, String> listOfElements = new TreeMap<>();
         listOfElements.put(0, "Java");
         listOfElements.put(3, "Scala");
         listOfElements.put(5, "Golang");
@@ -15,7 +16,7 @@ public class Main {
 
         System.out.println("First: " + listOfElements);
 
-        TreeMap<Integer, String> listOfElements2 = new TreeMap<>();
+        Map<Integer, String> listOfElements2 = new TreeMap<>();
         listOfElements2.put(2,"Spring");
         listOfElements2.put(4,"JEE");
         listOfElements2.put(6,"Golang");

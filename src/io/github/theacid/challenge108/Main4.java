@@ -1,10 +1,11 @@
 package io.github.theacid.challenge108;
 
 import java.util.ArrayList;
+import java.util.List;
 
-class CompareArrayList4 {
+class Main4 {
     public static void main(String[] args) {
-        ArrayList<String> listOfElements = new ArrayList<>();
+        List<String> listOfElements = new ArrayList<>();
         listOfElements.add("Java");
         listOfElements.add("Scala");
         listOfElements.add("Golang");
@@ -13,7 +14,7 @@ class CompareArrayList4 {
         listOfElements.add("C++");
         listOfElements.add("Elixir");
 
-        ArrayList<String> listOfElements2 = new ArrayList<>();
+        List<String> listOfElements2 = new ArrayList<>();
         listOfElements2.add("Java");
         listOfElements2.add("Scala");
         listOfElements2.add("Golang");
@@ -23,7 +24,7 @@ class CompareArrayList4 {
         listOfElements2.add("Elixir");
 
 
-        ArrayList<String> listOfElements3 = new ArrayList<>();
+        List<String> listOfElements3 = new ArrayList<>();
         for(String elements : listOfElements) {
             listOfElements3 .add(listOfElements2.contains(elements) ? "Yes" : "No");
             System.out.println(listOfElements3);

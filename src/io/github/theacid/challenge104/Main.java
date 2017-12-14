@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-class CopyArrayList {
+class Main {
     public static void main(String[] args) {
         List<String> listOfElements = new ArrayList<>();
         listOfElements.add("Java");

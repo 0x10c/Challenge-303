@@ -1,13 +1,14 @@
 package io.github.theacid.challenge149;
 
 import java.util.Iterator;
+import java.util.Set;
 import java.util.TreeSet;
 
 public class Main {
     public static void main(String[] args) {
 
         TreeSet<Integer> listOfNumbers = new TreeSet<>();
-        TreeSet<Integer> newList;
+        Set<Integer> newList;
 
         listOfNumbers.add(1);
         listOfNumbers.add(2);

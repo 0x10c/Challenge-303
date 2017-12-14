@@ -3,7 +3,7 @@ package io.github.theacid.challenge108;
 import java.util.ArrayList;
 import java.util.List;
 
-class CompareArrayList2 {
+class Main2 {
     public static void main(String[] args) {
         List<String> listOfElements = new ArrayList<>();
         listOfElements.add("Java");

@@ -1,10 +1,11 @@
 package io.github.theacid.challenge155;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class Main {
     public static void main(String[] args) {
-        HashMap<String, Integer> listOfElements = new HashMap<>();
+        Map<String, Integer> listOfElements = new HashMap<>();
         listOfElements.put("Java", 1);
         listOfElements.put("Scala", 2);
         listOfElements.put("Golang", 3);

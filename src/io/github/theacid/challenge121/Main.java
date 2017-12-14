@@ -2,10 +2,11 @@ package io.github.theacid.challenge121;
 
 import java.util.Collections;
 import java.util.LinkedList;
+import java.util.List;
 
-class SwapElements {
+class Main {
     public static void main(String[] args) {
-        LinkedList<String> listOfElements = new LinkedList<>();
+        List<String> listOfElements = new LinkedList<>();
         listOfElements.add("Java");
         listOfElements.add("Scala");
         listOfElements.add("Golang");

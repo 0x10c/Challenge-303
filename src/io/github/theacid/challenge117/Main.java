@@ -2,7 +2,7 @@ package io.github.theacid.challenge117;
 
 import java.util.LinkedList;
 
-class AddFirstLast {
+class Main {
     public static void main(String[] args) {
         LinkedList<String> listOfElements = new LinkedList<>();
         listOfElements.add("Java");

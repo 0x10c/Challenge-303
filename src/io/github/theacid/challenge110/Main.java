@@ -3,7 +3,7 @@ package io.github.theacid.challenge110;
 import java.util.ArrayList;
 import java.util.List;
 
-class ArrayListJoin {
+class Main {
     public static void main(String[] args) {
         List<String> listOfElements = new ArrayList<>();
         listOfElements.add("Java");
@@ -22,7 +22,7 @@ class ArrayListJoin {
 
         System.out.println("First array: " + listOfElements + "\nSecond array: " + listOfElements2);
 
-        ArrayList<String> join = new ArrayList<>();
+        List<String> join = new ArrayList<>();
         join.addAll(listOfElements);
         join.addAll(listOfElements2);
         System.out.println("Joined array: " + join);

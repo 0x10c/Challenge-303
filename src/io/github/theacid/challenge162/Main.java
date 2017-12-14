@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        TreeMap<Integer, String> listOfElements = new TreeMap<>();
+        Map<Integer, String> listOfElements = new TreeMap<>();
         listOfElements.put(3, "Java");
         listOfElements.put(0, "Scala");
         listOfElements.put(7, "Golang");

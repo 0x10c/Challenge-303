@@ -3,7 +3,7 @@ package io.github.theacid.challenge116;
 import java.util.Iterator;
 import java.util.LinkedList;
 
-class ReverseLinkedList {
+class Main {
     public static void main(String[] args) {
         LinkedList<String> listOfElements = new LinkedList<>();
         listOfElements.add("Java");

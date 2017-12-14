@@ -3,7 +3,7 @@ package io.github.theacid.challenge103;
 import java.util.ArrayList;
 import java.util.List;
 
-class FindArrayListElement {
+class Main {
     public static void main(String[] args) {
         List<String> listOfElements = new ArrayList<>();
         listOfElements.add("Java");

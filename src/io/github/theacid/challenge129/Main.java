@@ -1,10 +1,11 @@
 package io.github.theacid.challenge129;
 
 import java.util.LinkedList;
+import java.util.List;
 
-class ReplaceElement {
+class Main {
     public static void main(String[] args) {
-        LinkedList<String> listOfElements = new LinkedList<>();
+        List<String> listOfElements = new LinkedList<>();
         listOfElements.add("Java");
         listOfElements.add("Scala");
         listOfElements.add("Golang");

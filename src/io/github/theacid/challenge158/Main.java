@@ -5,7 +5,7 @@ import java.util.TreeMap;
 
 public class Main {
     public static void main(String[] args) {
-        TreeMap<Integer, String> listOfElements = new TreeMap<>();
+        Map<Integer, String> listOfElements = new TreeMap<>();
         listOfElements.put(1, "Java");
         listOfElements.put(2, "Scala");
         listOfElements.put(3, "Golang");

@@ -1,10 +1,11 @@
 package io.github.theacid.challenge142;
 
+import java.util.Set;
 import java.util.TreeSet;
 
 public class Main {
     public static void main(String[] args) {
-        TreeSet<String> listOfElements = new TreeSet<>();
+        Set<String> listOfElements = new TreeSet<>();
         listOfElements.add("Java");
         listOfElements.add("Scala");
         listOfElements.add("Golang");

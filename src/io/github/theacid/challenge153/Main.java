@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class Main {
     public static void main(String[] args) {
-        HashMap<Integer, String> listOfElements = new HashMap<>();
+        Map<Integer, String> listOfElements = new HashMap<>();
         listOfElements.put(1, "Java");
         listOfElements.put(2, "Scala");
         listOfElements.put(3, "Golang");
@@ -16,7 +16,7 @@ public class Main {
 
         System.out.println("List 1: " + listOfElements);
 
-        HashMap<Integer, String> listOfElements2 = new HashMap<>();
+        Map<Integer, String> listOfElements2 = new HashMap<>();
         listOfElements2.put(8, "ASP.NET");
         listOfElements2.put(9, "JEE");
         listOfElements2.put(10, "Spring");
