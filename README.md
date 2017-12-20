@@ -237,7 +237,14 @@ class RectangleArea {
   - 159 - Get a specified key and value from TreeMap.
   - 160 - Put all elements from one TreeMap to other.
   - 161 - Get all keys from TreeMap.
-
+  - 162 - Sort by key values from highest to lowest.
+  - 163 - Sort by value.
+  - 164 - Get lowest and highest key value.
+  - 165 - Get the greatest key less than or equal to the given key.
+  - 166 - Print values with keys less than a given key value.
+  - 167 - Return null if given key is not in TreeMap.
+  - 168 - 
+  - 169 - 
   
 
 [decimal]: <https://en.wikipedia.org/wiki/Decimal>
