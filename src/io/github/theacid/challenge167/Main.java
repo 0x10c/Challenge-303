@@ -15,8 +15,8 @@ public class Main {
 
         System.out.println("Original TreeMap: " + listOfElements);
 
-        System.out.println("Values for keys less or equal to 20: " + listOfElements.higherKey(29));
-        System.out.println("Values for keys less or equal to 20: " + listOfElements.higherKey(55));
-        System.out.println("Values for keys less or equal to 20: " + listOfElements.higherKey(72));
+        System.out.println("Values for keys less or equal to 29: " + listOfElements.higherKey(29));
+        System.out.println("Values for keys less or equal to 55: " + listOfElements.higherKey(55));
+        System.out.println("Values for keys less or equal to 72: " + listOfElements.higherKey(72));
     }
 }
