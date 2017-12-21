@@ -243,8 +243,8 @@ class RectangleArea {
   - 165 - Get the greatest key less than or equal to the given key.
   - 166 - Print values with keys less than a given key value.
   - 167 - Return null if given key is not in TreeMap.
-  - 168 - 
-  - 169 - 
+  - 168 - Get the next (bigger) key after the given from TreeMap.
+  - 169 - Print values within the given keys Example: From 2 to 4.
   
 
 [decimal]: <https://en.wikipedia.org/wiki/Decimal>
