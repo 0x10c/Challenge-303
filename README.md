@@ -245,7 +245,19 @@ class RectangleArea {
   - 167 - Return null if given key is not in TreeMap.
   - 168 - Get the next (bigger) key after the given from TreeMap.
   - 169 - Print values within the given keys Example: From 2 to 4.
-  
+  ##### PriorityQueue
+  - 170 - Create PriorityQueue, add some elements and print them.
+  - 171 - Iterate all elements in priority queue and print them all.
+  - 172 - 
+  - 173 - 
+  - 174 - 
+  - 175 - 
+  - 177 -
+  - 178 - 
+  - 179 - 
+  - 180 - 
+ 
+
 
 [decimal]: <https://en.wikipedia.org/wiki/Decimal>
 [binary]: <https://en.wikipedia.org/wiki/Binary_number>
