@@ -248,10 +248,10 @@ class RectangleArea {
   ##### PriorityQueue
   - 170 - Create PriorityQueue, add some elements and print them.
   - 171 - Iterate all elements in priority queue and print them all.
-  - 172 - 
-  - 173 - 
-  - 174 - 
-  - 175 - 
+  - 172 - Create two priority queues and add all elements from first queue to second.
+  - 173 - Insert element to queue.
+  - 174 - Count elements in queue.
+  - 175 - Compare elements in two priority queues.
   - 177 -
   - 178 - 
   - 179 - 
