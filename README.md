@@ -252,10 +252,10 @@ class RectangleArea {
   - 173 - Insert element to queue.
   - 174 - Count elements in queue.
   - 175 - Compare elements in two priority queues.
-  - 177 -
+  - 176 - Print head element from first list. Remove head element from second list and print before and after.
+  - 177 - Convert priority queue to array list.
   - 178 - 
   - 179 - 
-  - 180 - 
  
 
 
