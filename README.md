@@ -168,6 +168,10 @@ class RectangleArea {
   - 069 - Read content from file and write to array.
   - {...)
   - 080 - Password checker. Dependencies: minimum 10 characters. Only letters and minimum 3 digits values.
+  - 081 - Get fractional part from double value.
+  - 082 - Check if a value is a int or double.
+  - 083 - 
+  - 084 - 
   - (...)
   ##### ArrayList
   - 100 - Create ArrayList, add some elements and print them.
@@ -254,9 +258,8 @@ class RectangleArea {
   - 175 - Compare elements in two priority queues.
   - 176 - Print head element from first list. Remove head element from second list and print before and after.
   - 177 - Convert priority queue to array list.
-  - 178 - 
-  - 179 - 
- 
+  - (...) - 
+  - 200 - 
 
 
 [decimal]: <https://en.wikipedia.org/wiki/Decimal>
