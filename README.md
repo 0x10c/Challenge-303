@@ -170,7 +170,7 @@ class RectangleArea {
   - 080 - Password checker. Dependencies: minimum 10 characters. Only letters and minimum 3 digits values.
   - 081 - Get fractional part from double value.
   - 082 - Check if a value is a int or double.
-  - 083 - 
+  - 083 - Round a float value to given number after decimal. Number to round (taken from input). Rounding size (taken from input).
   - 084 - 
   - (...)
   ##### ArrayList
@@ -258,8 +258,19 @@ class RectangleArea {
   - 175 - Compare elements in two priority queues.
   - 176 - Print head element from first list. Remove head element from second list and print before and after.
   - 177 - Convert priority queue to array list.
-  - (...) - 
-  - 200 - 
+ ##### End of collections
+  - 178 - Singleton.
+  - 179 - Find duplicate numbers between 1 to N.
+  - 180 - Reverse int value.
+  - 181 - Reverse String (recursive). 
+  - 182 - Reverse String.
+  - 183 -
+  - 184 -
+  - 185 -
+  - 186 -
+  - 187 -
+ 
+
 
 
 [decimal]: <https://en.wikipedia.org/wiki/Decimal>
