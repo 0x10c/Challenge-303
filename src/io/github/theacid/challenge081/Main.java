@@ -12,7 +12,7 @@ class Main {
         double value = startingNumber - fract;
 
         System.out.println("Starting value: " + startingNumber);
-        System.out.println("Main part: " + value);
+        System.out.println("SingletonMain part: " + value);
         System.out.println("Fractional part: " + fract);
     }
 }

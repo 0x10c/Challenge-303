@@ -11,7 +11,7 @@ class ReadLineByLine {
         String line;
 
         try {
-            bufferedReader = new BufferedReader(new FileReader("/home/theacid/test.txt"));
+            bufferedReader = new BufferedReader(new FileReader("/home/theacid/PrintSomething.txt"));
             while((line = bufferedReader.readLine()) != null) {
                 System.out.println(line);
             }

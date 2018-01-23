@@ -7,12 +7,12 @@ class ReadLineByLine {
         String line = "";
 
         try {
-            String file = "/home/theacid/test.txt";
+            String file = "/home/theacid/PrintSomething.txt";
             FileWriter fileWriter = new FileWriter(file, true);
             fileWriter.write("New text");
             fileWriter.close();
 
-            BufferedReader bufferedReader = new BufferedReader(new FileReader("home/theacid/test.txt"));
+            BufferedReader bufferedReader = new BufferedReader(new FileReader("home/theacid/PrintSomething.txt"));
             while(line != null) {
                 StringBuilder stringBuilder = null;
                 stringBuilder.append(line);

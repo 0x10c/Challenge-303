@@ -4,10 +4,10 @@ import java.io.*;
 import java.nio.file.FileAlreadyExistsException;
 
 class ReadFromFile {
-    final static String FILENAME = "/home/theacid/test.txt";
+    private final static String FILENAME = "/home/theacid/PrintSomething.txt";
 
-    static public String getContent(File file) {
-        StringBuffer content = new StringBuffer();
+    static private String getContent(File file) {
+        StringBuilder content = new StringBuilder();
 
         try {
             BufferedReader inputValues = new BufferedReader(new FileReader(file));
@@ -32,7 +32,7 @@ class ReadFromFile {
         return content.toString();
     }
 
-    static public void setContent(File file, String content) throws IOException, FileNotFoundException {
+    static private void setContent(File file, String content) throws IOException, FileNotFoundException {
         if(file == null) {
             throw new IllegalArgumentException("File is empty.");
         }
