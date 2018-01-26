@@ -263,11 +263,11 @@ class RectangleArea {
   - 179 - Find duplicate numbers between 1 to N.
   - 180 - Reverse int value.
   - 181 - Reverse String (recursive). 
-  - 182 - Reverse String.
-  - 183 -
-  - 184 -
-  - 185 -
-  - 186 -
+  - 182 - Find sum of the first 10000 prime numbers. First variant hardcoded. Second variant - value from input.
+  - 183 - Find maximum repeated words in file.
+  - 184 - Swap two numbers without temporary variable.
+  - 185 - Find duplicate characters in the given string.
+  - 186 - 
   - 187 -
  
 
@@ -279,3 +279,4 @@ class RectangleArea {
 [hexadecimal]: <https://en.wikipedia.org/wiki/Hexadecimal>
 [FizzBuzz]: <https://en.wikipedia.org/wiki/Fizz_buzz>
 [PA]: <http://www.mathsisfun.com/pascals-triangle.html>
+[perfect number]: <https://en.wikipedia.org/wiki/Perfect_number>
