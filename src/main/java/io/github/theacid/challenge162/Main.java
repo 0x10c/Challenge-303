@@ -1,9 +1,32 @@
 package io.github.theacid.challenge162;
 
+import java.io.IOException;
 import java.util.*;
 
 public class Main {
-    public static void main(String[] args) {
+    public final static void clearConsole()
+    {
+        try
+        {
+            final String os = System.getProperty("os.name");
+
+            if (os.contains("Windows"))
+            {
+                Runtime.getRuntime().exec("cls");
+            }
+            else
+            {
+                Runtime.getRuntime().exec("clear");
+            }
+        }
+        catch (final Exception e)
+        {
+            //  Handle any exceptions.
+        }
+    }
+
+
+    public static void main(String[] args) throws IOException {
         Map<Integer, String> listOfElements = new TreeMap<>();
         listOfElements.put(3, "Java");
         listOfElements.put(0, "Scala");
@@ -24,5 +47,6 @@ public class Main {
 
         sorted.putAll(listOfElements);
         System.out.println("Sorted: " + Arrays.toString(sorted.entrySet().toArray()));
+        clearConsole();
     }
 }
