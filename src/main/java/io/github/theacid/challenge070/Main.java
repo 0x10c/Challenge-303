@@ -1,23 +1,32 @@
 package io.github.theacid.challenge070;
 
-import java.util.Arrays;
-import java.util.List;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        List<String> blocks = Arrays.asList(
-                "BO", "XK", "DQ", "CP", "NA",
-                "GT", "RE", "TG", "QD", "FS",
-                "JW", "HU", "VI", "AN", "OB",
-                "ER", "FS", "LY", "PC", "ZM" );
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter first string (ENTER to finish): ");
+        String str1 = input.nextLine();
 
-        for(String word : Arrays.asList("", "A", "BARK", "BOOK", "TREAT", "COMMON", "SQUAD", "CONFUSE")) {
-            //System.out.printf(word.isEmpty() ? "\"\"" : word, canMakeWord(word, blocks));
+        System.out.println("Enter second string (ENTER to finish): ");
+        String str2 = input.nextLine();
+
+        if(isEmptyOrNull(str1)) {
+            System.out.println("First string is null or empty.");
+        }
+        else {
+            System.out.println("First string contains characters.");
+        }
+
+        if(isEmptyOrNull(str2)) {
+            System.out.println("Second String is null or empty.");
+        }
+        else {
+            System.out.println("Second String contains characters.");
         }
     }
 
-    private static boolean canMakeWord(String word, String[] blocks) {
-
-        return false;
+    private static boolean isEmptyOrNull(String str) {
+        return str == null || str.isEmpty();
     }
 }
