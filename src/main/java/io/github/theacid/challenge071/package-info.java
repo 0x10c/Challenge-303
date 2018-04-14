@@ -1,5 +1,5 @@
 /*
- * Check if String is empty or not.
+ * Convert milliseconds to seconds and minutes
  * Read more: https://github.com/theacid/Challenge-303/blob/master/README.md
  */
 
