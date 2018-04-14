@@ -166,13 +166,28 @@ class RectangleArea {
   - 067 - Read txt file line by line.
   - 068 - Add text to existing file.
   - 069 - Read content from file and write to array.
-  - {...)
+  - 070 - Check if String is empty or not.
+  - 071 - Convert milliseconds to seconds and minutes.
+  ##### Example
+  ````
+  5494838 milliseconds: 
+  91 minutes or 5494 seconds
+  ````
+  - 072 - Check if String is a numeric.
+  - 073 - 
+  - 074 - 
+  - 075 - 
+  - 076 - 
+  - 077 - 
+  - 078 -
+  - 079 -  
   - 080 - Password checker. Dependencies: minimum 10 characters. Only letters and minimum 3 digits values.
   - 081 - Get fractional part from double value.
   - 082 - Check if a value is a int or double.
   - 083 - Round a float value to given number after decimal. Number to round (taken from input). Rounding size (taken from input).
   - 084 - 
   - (...)
+  - 099 - Difference between two time intervals.
   ##### ArrayList
   - 100 - Create ArrayList, add some elements and print them.
   - 101 - Create ArrayList, iterate all elements of array list and print them.
