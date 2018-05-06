@@ -1,19 +1,22 @@
 package io.github.theacid.challenge181;
 
+import java.util.Scanner;
+
 class Main {
-    private String reverseString(String value) {
-        String reverse = "";
-        if(value.length() == 0) {
+
+    private static String reverseString(String value) {
+        if(value.isEmpty())
             return value;
-        }
-        else {
-            reverse += value.charAt(value.length() -1) + reverseString(value.substring(0, value.length() - 1));
-            return reverse;
-        }
+        return reverseString(value.substring((1))) + value.charAt(0);
     }
 
     public static void main(String[] args) {
-        Main rev = new Main();
-        System.out.println("Reversed String: " + rev.reverseString("marS"));
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter a word: ");
+        String value = scanner.nextLine();
+
+        String reversed = reverseString(value);
+        System.out.println("Reversed: " + reversed);
     }
 }
