@@ -91,8 +91,8 @@ Folder named '3' contains a package named Challenge3
 ````
   - 034 - Convert array to ArrayList
   - 035 - Check if first array(int) is equals to second array(int). Arrays are the same when they have the same elements.
-  - 036 - Find largest element in array(int).
-  - 037 - Get minimum and maximu value from array(int).
+  - 036 - Find largest and smallest element in array(int).
+  - 037 - Get minimum and maximum value from array(int).
   - 038 - Display year, month, day of the week, hour, minutes and seconds.
   - 039 - Get current date and time in New York, Moscow and Ho Chi Minh.
   - 040 - Get name of the first and last day of current month.
@@ -124,9 +124,9 @@ Folder named '3' contains a package named Challenge3
   - 049 - Simple random number generator. Generate 10 numbers from 0 - 100.
   - 050 - Compare two (hardcoded) dates.
   - 051 - Count the occurrences of the values in the array.
-  - 052 - 
-  - 053 - 
-  - 054 - 
+  - 052 - Convert date from one format to another with SimpleDateFormat.
+  - 053 - Parse custom date string into Date object with SimpleDateFormat.
+  - 054 - Compare Date objects with compareTo method.
   - 055 - Calculate area of rectangle - User can enter a values from keyboard - Create three methods to: getting values, calculate and print result.
 
   ##### Example
@@ -148,7 +148,7 @@ class RectangleArea {
   ```` 
   - 057 - Two dimension array - print the diagonally (start from last array index) random values. Use 
   ``` java.util.random```
-  - 058 -
+  - 058 - Remove whitespace from String.
   - 059 - Generate a random number value between two entered values.
  ##### Example
   ````
@@ -174,13 +174,14 @@ class RectangleArea {
   91 minutes or 5494 seconds
   ````
   - 072 - Check if String is a numeric.
-  - 073 - 
-  - 074 - 
-  - 075 - 
-  - 076 - 
-  - 077 - 
+  - 073 - Compare two file paths.
+  - 074 - Construct file path.
+  - 075 - Create directory in specified location and file in this directory.
+  - 076 - Read file with BufferedInputStream.
+  - 077 - Read double values from file with DataInputStream.
   - 078 -
-  - 079 -  
+  - 079 - 
+  - 080 - 
   - 080 - Password checker. Dependencies: minimum 10 characters. Only letters and minimum 3 digits values.
   - 081 - Get fractional part from double value.
   - 082 - Check if a value is a int or double.
@@ -284,6 +285,9 @@ class RectangleArea {
   - 185 - Find duplicate characters in the given string.
   - 186 - 
   - 187 -
+  - 188 - 
+  - 189 -
+  - 190 -  
  
 
 
