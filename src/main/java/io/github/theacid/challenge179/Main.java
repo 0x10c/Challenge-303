@@ -1,34 +1,32 @@
 package io.github.theacid.challenge179;
 
 import java.util.ArrayList;
-import java.util.List;
+import java.util.Vector;
 
-class DuplicateValue {
-    private int findDuplicate(List<Integer> numbers) {
-        int highestNumber = numbers.size() - 1;
-        int totalNumbers = getSum(numbers);
-        int duplicate = totalNumbers - (highestNumber*(highestNumber+1)/2);
-
-        return duplicate;
-    }
-
-    private int getSum(List<Integer> numbers) {
-        int sum = 0;
-        for(int num : numbers) { sum += num; }
-        return sum;
-    }
-
+public class Main {
     public static void main(String[] args) {
-        List<Integer> numbers = new ArrayList<>();
-        //for(int i = 0; i < 50; i++)
-        for(int i = 1; i < 50; i++) {
-            numbers.add(i);
+        Vector vector = new Vector();
+        ArrayList aList = new ArrayList();
+
+        vector.add("Java");
+        vector.add("Scala");
+        vector.add("Golang");
+        vector.add("Elixir");
+        vector.add("Python");
+        vector.add("C#");
+
+        aList.add("Rust");
+        aList.add("JavaScript");
+
+        System.out.println("Vector: " + vector);
+        System.out.println("ArrayList: " + aList);
+
+        vector.addAll(aList);
+
+        System.out.println("'Vectorized' ArrayList: ");
+        for(int i = 0; i < vector.size(); i++) {
+            System.out.println(vector.get(i));
         }
 
-        System.out.println(numbers);
-        // add duplicate number to list
-        numbers.add(40);
-        DuplicateValue duplicateNum = new DuplicateValue();
-        System.out.println("Duplicate number: " + duplicateNum.findDuplicate(numbers));
     }
 }

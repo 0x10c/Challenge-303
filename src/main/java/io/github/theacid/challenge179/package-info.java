@@ -1,5 +1,5 @@
 /*
- * Find duplicate numbers between 1 to N
+ * Move elements from ArrayList to Vector.
  * Read more: https://github.com/theacid/Challenge-303/blob/master/README.md
  */
 
