@@ -1,24 +1,27 @@
 package io.github.theacid.challenge178;
 
-class SingletonMain {
-    private static SingletonMain singleton;
+import java.util.Vector;
 
-    private SingletonMain() {}
-
-    static {
-        singleton = new SingletonMain();
-    }
-
-    private static SingletonMain getInstance() {
-        return singleton;
-    }
-
-    private void PrintSomething() {
-        System.out.println("Hello. My name is singleton");
-    }
-
+public class Main {
     public static void main(String[] args) {
-        SingletonMain singleton = getInstance();
-        singleton.PrintSomething();
+        Vector vector = new Vector();
+
+        vector.add("Java");
+        vector.add("Scala");
+        vector.add("Golang");
+        vector.add("Elixir");
+        vector.add("Python");
+        vector.add("C#");
+
+        System.out.println("Before putting element: " + vector);
+
+        vector.add(0, "Rust");
+
+        // Displaying all elements
+//        for(int i = 0; i < vector.size(); i++) {
+//            System.out.println(vector.get(i));
+//        }
+
+         System.out.println("After putting element: " + vector);
     }
 }
