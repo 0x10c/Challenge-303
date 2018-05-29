@@ -1,27 +1,34 @@
 package io.github.theacid.challenge182;
 
-class Main {
-    private static boolean isPrime(int starting) {
-        for(int i = 2; i <= starting/2; i++) {
-            if(starting % i == 0) {
-                return false;
-            }
-        }
-        return true;
-    }
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Vector;
 
+public class Main {
     public static void main(String[] args) {
-        int starting = 2;
-        int count = 0;
-        long allPrimes = 0;
+        Vector vector = new Vector();
+        ArrayList aList = new ArrayList();
 
-        while(count < 10000) {
-            if(isPrime(starting)) {
-                allPrimes += starting;
-                count++;
-            }
-            starting++;
+        vector.add("Java");
+        vector.add("Scala");
+        vector.add("Golang");
+        vector.add("Elixir");
+        vector.add("Python");
+        vector.add("C#");
+
+        System.out.println("\nAfter adding: ");
+        for (Object vectors : vector) {
+            System.out.println(vectors);
         }
-        System.out.println(allPrimes);
+
+        aList.add("Cobol");
+        aList.add("NodeJS");
+
+        vector.addAll(3, aList);
+
+        System.out.println("\nBefore adding: ");
+        for (Object vectors : vector) {
+            System.out.println(vectors);
+        }
     }
 }

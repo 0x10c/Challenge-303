@@ -1,5 +1,5 @@
 /*
- * Find sum of the first 10000 prime numbers
+ * Insert elements from ArrayList to specified Vector index.
  * Read more: https://github.com/theacid/Challenge-303/blob/master/README.md
  */
 
