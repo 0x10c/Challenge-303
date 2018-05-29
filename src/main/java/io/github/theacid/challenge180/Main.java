@@ -1,17 +1,26 @@
 package io.github.theacid.challenge180;
 
-class Main {
-    private int reverse(int value) {
-        int reverse = 0;
-        while(value != 0) {
-            reverse = (reverse*10) + (value%10);
-            value = value/10;
-        }
-        return reverse;
-    }
+import java.util.ArrayList;
+import java.util.Vector;
 
+public class Main {
     public static void main(String[] args) {
-        Main reverseNumber = new Main();
-        System.out.println("Value: " + reverseNumber.reverse(1234));
+        Vector vector = new Vector();
+        ArrayList aList = new ArrayList();
+
+        vector.add("Java");
+        vector.add("Scala");
+        vector.add("Golang");
+        vector.add("Elixir");
+        vector.add("Python");
+        vector.add("C#");
+
+        Object array[] = new Object[6];
+        vector.copyInto(array);
+
+        System.out.println("Copied vector elements: ");
+        for(int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
+        }
     }
 }
