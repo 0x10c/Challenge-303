@@ -1,22 +1,34 @@
 package io.github.theacid.challenge181;
 
-import java.util.Scanner;
+import java.util.List;
+import java.util.Vector;
 
-class Main {
-
-    private static String reverseString(String value) {
-        if(value.isEmpty())
-            return value;
-        return reverseString(value.substring((1))) + value.charAt(0);
-    }
-
+public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Vector vector = new Vector();
 
-        System.out.println("Enter a word: ");
-        String value = scanner.nextLine();
+        vector.add("Java");
+        vector.add("Scala");
+        vector.add("Golang");
+        vector.add("Elixir");
+        vector.add("Python");
+        vector.add("C#");
 
-        String reversed = reverseString(value);
-        System.out.println("Reversed: " + reversed);
+        List sub = vector.subList(3, 5);
+
+        // displaying elements from sub
+        System.out.println("Sublist elements: ");
+        for(Object elements : sub) {
+            System.out.println(elements);
+        }
+
+        // Remove item with index 0 from sublist
+        Object removed = sub.remove(0);
+        System.out.println("\nElement: " + removed + " was removed");
+
+        System.out.println("\nAfter removing: ");
+        for(Object vectors : vector) {
+            System.out.println(vectors);
+        }
     }
 }

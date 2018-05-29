@@ -1,5 +1,5 @@
 /*
- * Reverse String.
+ * Copy elements from Vector to Object Array.
  * Read more: https://github.com/theacid/Challenge-303/blob/master/README.md
  */
 
